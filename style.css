@@ -10,7 +10,7 @@ header h2 {
 
 html {
   padding-top:0;
-  background: DeepSkyBlue; /* For browsers that do not support gradients */
+  background: DarkBlue; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Firefox 3.6 to 15 */
@@ -20,8 +20,8 @@ html {
 #main {
   max-width: 800px; 
   min-width: 640px;
-  min-height: 800px;
-  background-color: AliceBlue;
+  min-height: 1024px;
+  background-color: White;
   margin: 0 auto; 
   padding-bottom: 10px;
 }
@@ -149,7 +149,6 @@ html {
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 5%;
-  color: Blue;
 }
 
 p {
