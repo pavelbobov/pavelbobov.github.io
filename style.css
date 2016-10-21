@@ -11,14 +11,16 @@ header h2 {
 html {
   padding-top:0;
   background: DeepSkyBlue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(DeepSkyBlue, Cyan, DarkBlue); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(DeepSkyBlue, Cyan, DarkBlue); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(DeepSkyBlue, Cyan, DarkBlue); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(DeepSkyBlue, Cyan, DarkBlue); /* Standard syntax */
+  background: -webkit-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(DarkBlue, Cyan, DarkBlue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(DarkBlue, Cyan, DarkBlue); /* Standard syntax */
 }
 
 #main {
-  width: 800px; 
+  max-width: 800px; 
+  min-width: 640px;
+  min-height: 800px;
   background-color: AliceBlue;
   margin: 0 auto; 
   padding-bottom: 10px;
@@ -68,36 +70,49 @@ html {
   background-image: url('images/measurements.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
 }
 
 .monitoring {
   background-image: url('images/monitoring.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
 }
 
 .missions {
   background-image: url('images/missions.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
 }
 
 .boats {
   background-image: url('images/solarboat.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
 }
 
 .sensors {
   background-image: url('images/sensors.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
 }
 
 .systems {
   background-image: url('images/systems.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  height: 256px;
+}
+
+.saltonsea {
+  background-image: url('images/saltonsea.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 533px;
 }
 
 .section p {
@@ -107,14 +122,12 @@ html {
 
 .left_p {
   position: relative;
-  height: 256px;
   border-color: White;
   /*border-style: solid solid solid solid;*/
 }
 
 .right_p {
   position: relative;
-  height: 256px;
   border-color: White;
   /*border-style: solid solid solid solid;*/
 }
@@ -130,6 +143,13 @@ html {
   margin-left: 400px;
   margin-right: 10%;
   padding-top: 10%;
+}
+
+.center_p p {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  color: Blue;
 }
 
 p {
