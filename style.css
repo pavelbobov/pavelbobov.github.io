@@ -27,6 +27,7 @@ html {
   margin: 0 auto; 
   padding-bottom: 0px;
   text-align: center;
+  width: 960px;
 }
 
 #topnav a {
