@@ -1,12 +1,17 @@
 header h2 { 
   text-align: center;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Georgia, Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30pt;
   text-decoration: none;
   color: Black;
 }
+
+h3 {
+  text-align: center;
+  font-family: Georgia, Times, serif;
+} 
 
 html {
   padding-top:0;
@@ -18,12 +23,10 @@ html {
 }
 
 #main {
-  max-width: 800px; 
-  min-width: 640px;
-  min-height: 1024px;
   background-color: White;
   margin: 0 auto; 
   padding-bottom: 0px;
+  text-align: center;
 }
 
 #topnav a {
@@ -63,99 +66,57 @@ html {
 
 #footer {
   background-color: SkyBlue;
-  padding-left: 40px;
+  padding: 0px 10px;
   margin: 0px;
 }
 
-.section {
-  width:auto;
-  border-color: DeepSkyBlue;
-  margin: 0px
+table {
+	width: 100%;
 }
 
-.measurements {
-  background-image: url('images/measurements.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
+#technology td, #solutions td {
+  vertical-align: top;
+  width:33%;
+  text-align: center;
+  padding-left: 20px;	
+  padding-right: 20px;
 }
 
-.monitoring {
-  background-image: url('images/monitoring.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
+#solutions, #technology {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
-.missions {
-  background-image: url('images/missions.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
+#measurements, #monitoring, #missions {
+	width: 256px;	
 }
 
-.boats {
-  background-image: url('images/solarboat.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
+#solarboat, #sensors, #systems {
+	width: 256px;	
 }
 
-.sensors {
-  background-image: url('images/sensors.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
-}
-
-.systems {
-  background-image: url('images/systems.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 256px;
-}
-
-.saltonsea {
+#saltonsea {
   background-image: url('images/saltonsea.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 533px;
-}
-
-.section p {
-  vertical-align: middle;
-  margin: 0px;
-}
-
-.left_p {
   padding-left: 40px;
-  padding-right: 400px;
   padding-top: 40px;
-  padding-bottom: 0px;
-  margin: 0px;
-}
-
-.right_p {
-  padding-left: 400px;
   padding-right: 40px;
-  padding-top: 40px;
   padding-bottom: 0px;
-  margin: 0px;
-}
-
-.center_p {
-  padding-left: 40px;
-  pading-right: 40px;
-  padding-top: 40px;
+  height: 533px;
 }
 
 p {
   font-family: Georgia, serif;
   font-size: 16pt;
+  text-align: left;
 }
 
 #contacts ul, #about p, #sponsors p {
+  text-align: left;
   padding-left: 40px;
   padding-right: 40px;
 }
+
+
 
