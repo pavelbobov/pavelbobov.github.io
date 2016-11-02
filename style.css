@@ -113,10 +113,19 @@ p {
   text-align: left;
 }
 
-#contacts ul, #about p, #sponsors p {
+#contacts, #about, #sponsors {
   text-align: left;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#contacts table {
+	width: 100%;	
+}
+
+#phone, #email {
+	vertical-align: middle;
+	text-align: center;
 }
 
 
