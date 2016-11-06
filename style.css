@@ -96,6 +96,10 @@ table {
 	width: 256px;	
 }
 
+#flying_dutchman {
+	width: 100%;
+}
+
 #saltonsea {
   background-image: url('images/saltonsea.jpg');
   background-size: 100% auto;
