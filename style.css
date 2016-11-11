@@ -22,12 +22,16 @@ html {
   background: linear-gradient(DarkBlue, Cyan, DarkBlue); /* Standard syntax */
 }
 
-#main {
+body {
   background-color: White;
   margin: 0 auto; 
   padding-bottom: 0px;
   text-align: center;
   width: 960px;
+}
+
+#main {
+  min-height: 960px;
 }
 
 #topnav a {
@@ -112,7 +116,7 @@ table {
 }
 
 p {
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
   font-size: 16pt;
   text-align: left;
 }
@@ -130,6 +134,11 @@ p {
 #phone, #email {
 	vertical-align: middle;
 	text-align: center;
+}
+
+#donate {
+	text-align: center;
+	padding: 20px;
 }
 
 
